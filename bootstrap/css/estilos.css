@@ -1,0 +1,185 @@
+.bootstrap-body {
+  background: url(../img/fondo.jpg);
+
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-inverse {
+  background-color: rgba(8, 45, 94, 0.95);
+  min-height: 10%;
+  border: none;
+}
+
+.logo-img {
+  width: 100px;
+}
+
+.container-fluid {
+  margin-top: 13px;
+}
+
+/*.jumbotron {
+  background: url(../img/cartelera.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+}*/
+
+.titulop-img {
+  width: 220px;
+  margin-top: 20px;
+}
+
+.titulop-text {
+
+  font-size: 26px;
+  margin-top: 20px;
+  color: #0000FF;
+  
+}
+
+
+.redes-sociales {
+  margin-top: 30px;
+}
+
+.img-social {
+  width: 40px;
+  height: 40px;
+  margin-top: 180px
+}
+
+.img-tamaño {
+  
+  width: 100%;
+  padding: 6px;
+  margin-top: 22px;
+}
+
+
+
+
+.welcome-title {
+  color: #FFFFFF;
+  margin-right: 10px;
+  margin-top: 120px;
+}
+
+.titulo-menu {
+  min-height: 35px;
+  background-color: rgba(8, 45, 94, 0.5);
+
+}
+
+.titulo-text {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  padding: 10px;
+  background: rgba(23, 77, 196, 0.5);
+}
+
+.movies-row {
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 20px;;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.topnav {
+  overflow: hidden;
+  /*background-color: #333;*/
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 24px 120px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #1358EE;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+@media (max-width:70px) {
+  h2 {
+    font-size: 22px;
+  }
+
+
+  .movies-row {
+    padding-left: 0px;
+    padding-right: 0px;
+    min-height: 400px;
+  }
+
+
+  .img-movies {
+    height: 133px;
+    padding: 6px;
+    margin-top: 22px;
+  }
+
+ 
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
